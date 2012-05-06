@@ -18,7 +18,3 @@ $CFLAGS << ' -ggdb -O0 -Wextra'
 error 'Missing ruby header' unless have_header 'ruby.h'
 
 create_makefile('coreaudio_ext')
-
-# command "mv -f Makefile Makefile.bak"
-# command "sed -e 's/^\.c\.o:$/\.m\.o:/' Makefile.bak > Makefile"
-# command "rm Makefile.bak"
