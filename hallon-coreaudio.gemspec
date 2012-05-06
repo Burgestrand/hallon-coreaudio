@@ -15,5 +15,4 @@ Gem::Specification.new do |gem|
   gem.version       = Hallon::CoreAudio::VERSION
 
   gem.add_dependency 'hallon', '~> 0.13'
-  gem.add_development_dependency 'rspec', '~> 2.7'
 end

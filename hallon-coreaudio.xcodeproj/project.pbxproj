@@ -28,6 +28,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/Kim/Projects/hallon-coreaudio/ext/hallon";
 			dependencies = (
 			);
 			name = "hallon-coreaudio";
