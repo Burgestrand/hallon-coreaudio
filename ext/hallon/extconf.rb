@@ -12,7 +12,7 @@ def command(cmd)
 end
 
 # Compilation Flags. Not absolutely necessary, but may save you a headache.
-$DLDFLAGS << " -framework Foundation"
+$DLDFLAGS << " -framework Foundation -framework AudioToolbox"
 $CFLAGS << ' -ggdb -O0 -Wextra'
 
 error 'Missing ruby header' unless have_header 'ruby.h'
